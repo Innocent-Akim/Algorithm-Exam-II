@@ -1,0 +1,6 @@
+L'application lit le chemind'acces de la base des données dans le dossier
+tpVb\conFileExamen.txt, Vous devez le copier dans votre disque C
+
+
+
+by Eugene Tondeka

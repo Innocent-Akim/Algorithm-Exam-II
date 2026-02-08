@@ -1,0 +1,596 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExamenVB
+</name>
+</assembly>
+<members>
+<member name="T:ExamenVB.bd_RudolfDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tApprovDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tClientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tCommandeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tConcerneDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tfournisseurDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tOpCreditDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.TOpDebitDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tProduitDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.bonRequisitionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.GradnLivre_BalanceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.grdLivreFinalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqApprovDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqCommandeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqFactureClDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqGrandLivreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqGrLivreCreditDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqGrLivreDebitDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqJournalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqMouvementDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.sumCrediGrandLivreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.sumDebitGrandLivreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tApprovRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tClientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tCommandeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tConcerneRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tfournisseurRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tOpCreditRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.TOpDebitRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tProduitRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.bonRequisitionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.GradnLivre_BalanceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.grdLivreFinalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqApprovRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqCommandeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqFactureClRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqGrandLivreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqGrLivreCreditRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqGrLivreDebitRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqJournalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqMouvementRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.sumCrediGrandLivreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.sumDebitGrandLivreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tApprovRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tClientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tCommandeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tConcerneRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tfournisseurRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tOpCreditRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.TOpDebitRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.tProduitRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.bonRequisitionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.GradnLivre_BalanceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.grdLivreFinalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqApprovRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqCommandeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqFactureClRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqGrandLivreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqGrLivreCreditRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqGrLivreDebitRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqJournalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.reqMouvementRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.sumCrediGrandLivreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSet.sumDebitGrandLivreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.tApprovTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.tClientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.tCommandeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.tConcerneTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.tfournisseurTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.tOpCreditTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.TOpDebitTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.tProduitTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.bonRequisitionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.GradnLivre_BalanceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.grdLivreFinalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.reqApprovTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.reqCommandeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.reqFactureClTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.reqGrandLivreTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.reqGrLivreCreditTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.reqGrLivreDebitTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.reqJournalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.reqMouvementTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.sumCrediGrandLivreTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.sumDebitGrandLivreTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ExamenVB.bd_RudolfDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ExamenVB.bd_RudolfDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ExamenVB.bd_RudolfDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ExamenVB.bd_RudolfDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ExamenVB.bd_RudolfDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ExamenVB.bd_RudolfDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ExamenVB.bd_RudolfDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ExamenVB.bd_RudolfDataSetTableAdapters.TableAdapterManager.UpdateAll(ExamenVB.bd_RudolfDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ExamenVB.bd_RudolfDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ExamenVB.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources._77">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.AdresseMail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.bocustomer_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.bodetails_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.bouser_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.bouser_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.clusteredcolumn_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.converttorange_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.drilldownonarguments_chart_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.Enregistrer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.groupbydate_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.ide_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.imagesluh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.inscription">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.logical_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.MotdePasse">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.openhyperlink_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.picturebox_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.produit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.Suivant">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenVB.My.Resources.Resources.tableofcontent_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

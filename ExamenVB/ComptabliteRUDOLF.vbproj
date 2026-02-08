@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98142861-A5E1-466E-95DD-D388B5A708D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ExamenVB.My.MyApplication</StartupObject>
+    <RootNamespace>ExamenVB</RootNamespace>
+    <AssemblyName>ExamenVB</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ExamenVB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ExamenVB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>ExamenVB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>ExamenVB.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.2.UI, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.2.Wizard, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.2.Extensions, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bd_RudolfDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bd_RudolfDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\clsBase.vb" />
+    <Compile Include="Classes\clsClientFss.vb" />
+    <Compile Include="Classes\clsCmd_Approv.vb" />
+    <Compile Include="Classes\clsConnexion.vb" />
+    <Compile Include="Classes\clsGlossiaire.vb" />
+    <Compile Include="Classes\clsImabar.vb" />
+    <Compile Include="Classes\clsMouvementCompt.vb" />
+    <Compile Include="Classes\clsOpDebitCredit.vb" />
+    <Compile Include="Classes\clsProduit.vb" />
+    <Compile Include="Classes\journalEtat.vb" />
+    <Compile Include="Formulaires\Acceuil.Designer.vb">
+      <DependentUpon>Acceuil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Acceuil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\frmCli_Fss.Designer.vb">
+      <DependentUpon>frmCli_Fss.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\frmCli_Fss.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\frmMouvement.Designer.vb">
+      <DependentUpon>frmMouvement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\frmMouvement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\frmOperations.Designer.vb">
+      <DependentUpon>frmOperations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\frmOperations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\frmEntreSortie.Designer.vb">
+      <DependentUpon>frmEntreSortie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\frmEntreSortie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\frmProduit.Designer.vb">
+      <DependentUpon>frmProduit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\frmProduit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ModuleConnexion.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Formulaires\ProblemeConnection.Designer.vb">
+      <DependentUpon>ProblemeConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ProblemeConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formulaires\Acceuil.resx">
+      <DependentUpon>Acceuil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\frmCli_Fss.resx">
+      <DependentUpon>frmCli_Fss.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\frmMouvement.resx">
+      <DependentUpon>frmMouvement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\frmOperations.resx">
+      <DependentUpon>frmOperations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\frmEntreSortie.resx">
+      <DependentUpon>frmEntreSortie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\frmProduit.resx">
+      <DependentUpon>frmProduit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ProblemeConnection.resx">
+      <DependentUpon>ProblemeConnection.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bd_RudolfDataSet.xsc">
+      <DependentUpon>bd_RudolfDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bd_RudolfDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bd_RudolfDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bd_RudolfDataSet.xss">
+      <DependentUpon>bd_RudolfDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inscription.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdresseMail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotdePasse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enregistrer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suivant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\converttorange_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openhyperlink_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bocustomer_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bodetails_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bouser_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groupbydate_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clusteredcolumn_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drilldownonarguments_chart_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logical_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ide_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tableofcontent_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picturebox_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bouser_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bouser_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bd_Rudolf.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\imagesluh.jpg" />
+    <None Include="Resources\produit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
